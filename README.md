@@ -94,6 +94,15 @@ The skill includes explicit guidance on what to avoid:
 
 Visit [the Neo Mirai case study](https://impeccable.style/cases/neo-mirai) to see a before/after case study of a real project transformed with Impeccable commands.
 
+### Before/after example
+
+The same plain weekly ops dashboard, before and after the `impeccable` skill in Operate mode with the craft floor applied: one sans family, tinted neutrals, a single accent for actions and selection, no hero-metric block, and hover, focus, loading, error, and empty states on the controls. Both links open live pages.
+
+- Before: https://skill-fixture-before.theroost.dev
+- After: https://impeccable-after.theroost.dev
+
+Illustrative, community-contributed example; not an official demo or benchmark.
+
 ## Installation
 
 The skill needs no runtime of its own. Every skill copy ships a small launcher (`scripts/impeccable`, plus `impeccable.cmd` for Windows) that runs the Impeccable engine, a self-contained binary that either sits next to the launcher or is downloaded once on first run into `~/.impeccable/bin/`. Node is only involved if you use the `npx impeccable` installer, which is a shim around the same binary; the manual and Git options below work without it.
